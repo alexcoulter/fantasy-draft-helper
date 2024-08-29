@@ -1,0 +1,93 @@
+.whole-page {
+  background-color: #282c34;
+  color: white;
+}
+
+.App {
+  display: flex;
+}
+
+.table {
+  margin-left:20px;
+
+}
+
+.App-header {
+  padding:20px;
+ 
+  display: block;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+ 
+}
+.drafted {
+  padding-left:50px;
+  width:18%;
+  justify-content: right;
+}
+
+.my-drafted {
+  width:18%;
+  margin:0 30px;
+}
+
+th, td {
+  padding:2px 10px;
+  text-align: left;
+}
+
+.player-table {
+  width:50%;
+  justify-content: left;
+}
+
+.rb-class {
+  color: lightblue;
+}
+.wr-class {
+  color: rgb(196, 49, 196);
+}
+.qb-class {
+  color: orange;
+}
+.te-class {
+  color: yellow;
+}
+
+.default-pick {
+  color:greenyellow;
+  text-decoration: underline;
+}
+
+.hidden {
+  color: #282c34;
+  font-size: small;
+  margin:5px;
+}
+p {
+  margin:0;
+}
+
+.hidden:hover {
+  color: white;
+}
+
+.draft-button {
+  background-color: rgb(45, 65, 16);
+  color:lightgray;
+  border-radius:5px;
+  box-shadow: 1px 1px lightcyan;
+  margin:2px;
+}
+
+.remove-button {
+  background-color: rgb(65, 16, 23);
+  color:lightgray;
+  border-radius:5px;
+  box-shadow: 1px 1px rgb(202, 183, 178);
+  margin:2px;
+}
+
+
